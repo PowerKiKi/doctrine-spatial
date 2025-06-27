@@ -78,7 +78,7 @@ class StLineStringFromWkbTest extends PersistOrmTestCase
      *
      * @group geometry
      */
-    public function testSelectWithSrid(): void
+    public function  testSelectWithSrid(): void
     {
         $this->persistGeometryStraightLine();
         $this->getEntityManager()->flush();
